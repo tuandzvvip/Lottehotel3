@@ -1,0 +1,59 @@
+.blogjs{
+    margin-top: 200px
+}
+.blogtitle{
+    margin-left: 100px;
+    cursor: pointer;
+}
+.spanlog{
+    font-weight: 600;
+}
+.ttblog{
+    text-align: center;
+    margin-top: 100px;
+}
+.ttblog::after{
+        content: "";
+        display: block;
+        margin: 40px auto;
+        width: 80%; /* Chiều dài của thanh border */
+        height: 1px; /* Độ dày của thanh border */
+        background-color: rgb(120, 113, 113); /* Màu sắc của thanh border */
+}
+.ttblog{
+    font-size: 3rem;
+}
+.botraptong{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.imgblog{
+    object-fit: cover;
+    width: 600px;
+    cursor: pointer;
+}
+.desblog{
+    overflow: hidden;
+    max-width: 500px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titleb{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.imgblog:hover{
+    filter: brightness(70%);
+    transition: 0.75s;
+    transform: scale(1.05);
+}
+.dateblog{
+    font-weight: 100;
+}
+.paging{
+    text-align: center;
+    cursor: pointer;
+}
+

@@ -1,0 +1,174 @@
+.mobshow-dining, .reservation1{
+ list-style-type: none;
+ cursor: pointer;   
+ font-size: larger;
+ padding-top: 30px;
+ padding-bottom: 35px;
+}
+.reservation1{
+    color: #ad9e87;
+}
+.mobshow-dining:hover{
+    text-decoration: underline;
+}
+.navi-dining{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Open Sans",sans-serif;
+}
+.detail-info1{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    background-color: rgb(254, 254, 254);
+    top: 150px;
+    width: 100%;
+    height: 300px;
+    left: 0;
+    padding: 30px 50px; 
+    border-top: 2px solid rgb(206, 192, 176);
+}
+.info-dining{
+    border-top: 2px solid rgb(210, 205, 199);
+    align-items: center;
+    justify-content: center;
+}
+.name-dining{
+    display: flex;
+    padding-left: 40px;
+    gap: 8px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    border-top: 1px solid #ad9e87;
+}
+.contentLogin{
+    justify-content: center;
+    text-align: center; 
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.contentLogin::after{
+    content: "";
+    display: block;
+    margin: 40px auto;
+    width: 60%; /* Chiều dài của thanh border */
+    height: 1px; /* Độ dày của thanh border */
+    background-color: rgb(120, 113, 113); /* Màu sắc của thanh border */
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-family: "Open Sans", sans-serif;
+}
+.loginInput{
+    width: 450px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.buttonLogin button{
+    width: 200px;
+    height: 110px;
+    background-color: #ad9e87;
+    color: white;
+    border: none;
+    font-size: larger;
+}
+.buttonLogin button:hover{
+    background-color: #595247;
+}
+.luuy2{
+    gap: 10px;
+    display: flex;
+}
+.luuy1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.buttontrong{
+    width: 115px;
+}
+.luuy3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.luuy3 span{
+    text-decoration: underline;
+    color: #ad9e87;
+}
+.ctluuy{
+    border-right: 1px solid #ad9e87;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.anhlogin1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.anhlogin2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 200px;
+}
+
+.anh1login,
+.anh2login {
+    position: relative;
+    text-align: left /* Canh giữa nội dung */
+}
+.s600-join__tit{
+    margin-left: 20px;
+}
+.ctlogin2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    z-index: 2;
+    color: white; /* Màu chữ */
+    /* Các thuộc tính CSS khác cho chữ */
+    text-decoration: none;
+}
+.s600__arw{
+    width: 500px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: larger;
+}
+.contenttable{
+    font-size: 2.8rem;
+}
+.cttable{
+    margin-bottom: 60px;
+}
+.tabledining{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.platium{
+    color: #3c4767;
+}
+.gold{
+    color: #c59b5e;
+}
+.silver{
+    color: #a7a7a7;
+}
+.classic{
+    color: #594044;
+}
+.tbaoloi{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+

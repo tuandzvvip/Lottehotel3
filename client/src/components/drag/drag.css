@@ -1,0 +1,31 @@
+.containerslider{
+    position: relative;
+}
+.swiper-slide img {
+    width: 100%;
+    object-fit: cover;
+}
+.buttonslider{
+    justify-content: center;
+    text-align: center;
+}
+.buttonslider button{
+    border: none;
+}
+.btnslide{
+    border: none;
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    left: 52%;
+    transform: translate(-80%, -52%);
+}
+.btnslide img{
+    object-fit: cover;
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+.swiper-button-prev, .swiper-button-next{
+    color: aliceblue;
+}

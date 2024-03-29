@@ -1,0 +1,58 @@
+.inner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(202, 201, 201);
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.s598-quick{
+    margin-top: 10px;
+}
+.s121{
+    padding: 0px 10px 0px 10px;
+    color: gray;
+    border-bottom: none;
+    text-decoration: none;
+    border-right: 1px solid rgb(211, 206, 206);
+}
+.s122{
+    padding: 0px 10px 0px 10px;
+    color: gray;
+    border-bottom: none;
+    text-decoration: none;
+
+}
+.Language{
+    margin-left: 530px;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.Money{
+    margin-left: 550px;
+    background-color: white;
+    z-index: 3;
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    font-size: smaller;
+    
+}
+.topofHead{
+    background-color: aliceblue;
+}
+.ico-flag:hover{
+    text-decoration: underline;
+    color: rgb(147, 144, 140);
+}
+.ui-choice{
+    list-style-type: none;
+}
+.texttt{
+    color: #c59b5e;
+}

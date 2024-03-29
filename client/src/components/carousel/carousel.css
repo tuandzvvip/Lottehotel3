@@ -1,0 +1,78 @@
+.ctong{
+   text-align: left;
+   font-family: "Open Sans", sans-serif;
+   
+}
+.ctong > h2 {
+    font-size: 28px;
+    font-weight: 400;
+    transform: translate(-18%);
+}
+.carousel-control-prev , .carousel-control-next{
+    width: 3%;
+  
+}
+.carousel11{
+    width: 1000px;
+    height: 500px;
+    margin-right: 10px;
+}
+.ct2{
+    display: flex;
+}
+.pt, .pt2, .pt3{
+    border-right: 1px solid white;
+    margin: 15px 0px 0px;
+    padding-right: 10px;
+    font-weight: 300;
+}
+.pt2,.pt3{
+    padding-left: 10px;
+}
+.ctHero{
+    display: flex;
+    justify-content: space-between;
+}
+.herolink{
+    text-decoration: none;
+    color: white;
+}
+.carousel1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.intro_img{
+    width: 400px;
+    height: 187.5px;
+    object-fit: cover;
+    display: block;
+}
+.intro-right{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.introtext {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    font-size: 25px;
+}
+.intro-right:hover .intro_img{
+    filter: brightness(70%);
+    transition: 0.75s;
+    transform: scale(1.05);
+    width: 100%;
+}
+.intro-right:hover .introtext{
+    text-decoration: underline;
+}
+
+
+

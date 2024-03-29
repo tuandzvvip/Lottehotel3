@@ -1,0 +1,16 @@
+.home{
+   margin: 0 0;
+}
+.head{
+   position: fixed;
+   z-index: 5;
+   width: 100%;
+}
+/** Desktop layout **/
+.isMobile {
+   display: none;
+}
+.isDesktop {
+   display: block;
+}
+

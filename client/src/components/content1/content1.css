@@ -1,0 +1,64 @@
+.Content1 > h1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: "Open Sans", sans-serif;
+} 
+.Content1{
+    justify-content: center;
+}
+.Phan1{
+    display: flex;
+    justify-content: center;
+    margin: 50px 80px 20px 80px; 
+    gap: 20px;
+}
+.Phan2{
+    display: flex;
+    justify-content: center;
+    margin: 50px 80px 20px 80px; 
+    height: 480px;
+    gap: 20px;
+}
+
+.contentPhan1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.topcontent{
+    font-size: 32px;
+}
+.topcontent::after{
+    content: "";
+    display: block;
+    width: 15%; /* Chiều dài của thanh border */
+    height: 1px; /* Độ dày của thanh border */
+    background-color: rgb(120, 113, 113); /* Màu sắc của thanh border */
+    margin: 40px auto;
+}
+.t1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+.t2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #1b65b3;
+    text-decoration: none;
+}
+.khoangtrong{
+    padding-top: 50px;
+}
+
+.contentPhan2{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.khoangtrong2{
+    padding-top: 100px;
+}
+.anh2{
+    position: relative;
+    top: -130px;
+    align-items: center;
+    justify-content: center;
+}

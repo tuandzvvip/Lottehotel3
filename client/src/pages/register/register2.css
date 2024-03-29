@@ -1,0 +1,47 @@
+.truongthongtin {
+    max-width: 1090px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.trgbatbuoc {
+    color: #ad9e87;
+    margin-bottom: 20px;
+}
+
+.trgbatbuoc1 {
+    border-bottom: 1px solid #dcdcdc;
+}
+.userid, .email, .matkhau, .quocgia, .tentienganh, .ngaysinh, .thongtinlhe{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.inputbatbuoc{
+    padding: 20px 20px;
+    font-size: smaller;
+    width: 400px;
+    margin-right: 10px;
+}.susanco{
+    padding: 20px 20px;
+    width: 300px;
+    background-color: #666;
+    color: #fff;
+    border: #666;
+}
+.susanco:hover{
+    background-color: #555;
+}
+.tbaomk{
+    padding: 20px 20px;
+    width: 810px;
+    border: 1px solid rgba(243, 195, 0, 0.5);
+    background-color: rgba(243, 195, 0, 0.1);
+    margin-top: 20px;
+}
+.tbaomkid{
+    font-size: smaller;
+    color:  #ac8a00;
+
+}

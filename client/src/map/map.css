@@ -1,0 +1,71 @@
+.map1{
+    display: flex;
+    margin: 90px 20px 0 20px;
+    justify-content: center;
+
+}
+.contentmap{
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    width: 452px;
+    height: 471px;
+    padding: 40px;
+    background-color: #ad9e87;
+    color: white;
+}
+.contentmap > h4{
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.ggmap1{
+    width: 1000px;
+    height: 471px;
+}
+.ct{
+    margin-bottom: 70px;
+}
+.diaphuong{
+    padding: 4px 10px 4px 10px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.2);
+}
+.thoitiet1{
+    display: flex;
+    margin-top: 22px;
+}
+.nhietdo{
+    margin-left: 10px;
+    font-size: larger;
+}
+.d088-info{
+    display: flex;
+}
+.d088-info__time, .d088-info__room, .d088-info__tel, .d088-info__facilities{
+    border-left: 1px solid gray;
+    padding-left:  30px;
+    line-height: 23px;
+    height: 90px;
+}
+.con{
+    margin: 30px 20px 30px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+}
+.d088-info__time{
+  flex: 1;
+}
+.d088-info__room{
+    flex: 1;
+
+}
+.d088-info__tel{
+    flex: 1;
+}
+.d088-info__facilities{
+    flex: 1;
+}
